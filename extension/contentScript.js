@@ -155,19 +155,57 @@ chrome.storage.sync.get(null, function (result) {
         }
         /*2 thanh 2 ben */
         .rirtxc74{
+            max-width: 100px !important;
+        }
+        .rirtxc74:hover{
             max-width: 250px !important;
         }
         .fer614ym{
+            min-width: 100px!important;
+        }
+        .fer614ym:hover{
             min-width: 200px!important;
         }
         .o387gat7{
+            flex-basis: 100px !important;
+        }
+        .o387gat7:hover{
             flex-basis: 250px !important;
         }
         span._8y72._18vi{
+            width: 100px;
+        }
+        span._8y72._18vi:hover{
             width: 200px;
         }
         .oajrlxb2.bp9cbjyn.g5ia77u1.mtkw9kbi.tlpljxtp.qensuy8j.ppp5ayq2.goun2846.ccm00jje.s44p3ltw.mk2mc5f4.rt8b4zig.n8ej3o3l.agehan2d.sk4xxmp2.rq0escxv.nhd2j8a9.j83agx80.mg4g778l.btwxx1t3.pfnyh3mw.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.tgvbjcpo.hpfvmrgz.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.l9j0dhe7.i1ao9s8h.esuyzwwr.f1sip0of.du4w35lb.lzcic4wl.abiwlrkh.p8dawk7l.buofh1pr.k7cz35w2.taijpn5t.ms05siws.flx89l3n.ogy3fsii{
             width: 200px;
+        }
+        .q5bimw55.rpm2j7zs.k7i0oixp.gvuykj2m.j83agx80.cbu4d94t.ni8dbmo4.eg9m0zos.l9j0dhe7.du4w35lb.ofs802cu.pohlnb88.dkue75c7.mb9wzai9.d8ncny3e.buofh1pr.g5gj957u.tgvbjcpo.l56l04vs.r57mb794.kh7kg01d.c3g1iek1.k4xni2cv{
+            -webkit-animation-name: fadeOut;
+            -webkit-animation-duration: 0.25s;
+            opacity:0;
+        }
+        .q5bimw55.rpm2j7zs.k7i0oixp.gvuykj2m.j83agx80.cbu4d94t.ni8dbmo4.eg9m0zos.l9j0dhe7.du4w35lb.ofs802cu.pohlnb88.dkue75c7.mb9wzai9.d8ncny3e.buofh1pr.g5gj957u.tgvbjcpo.l56l04vs.r57mb794.kh7kg01d.c3g1iek1.k4xni2cv:hover{
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 0.25s;
+            opacity:1;
+        }
+        @-webkit-keyframes fadeIn { 
+            0% { opacity: 0; }
+            20% { opacity: 0.2; }
+            40% { opacity: 0.4; }
+            60% { opacity: 0.6; }
+            80% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+        @-webkit-keyframes fadeOut { 
+            0% { opacity: 1; }
+            20% { opacity: 0.8; }
+            40% { opacity: 0.6; }
+            60% { opacity: 0.4; }
+            80% { opacity: 0.2; }
+            100% { opacity: 0; }
         }
         `
         ;
