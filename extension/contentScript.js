@@ -161,42 +161,82 @@ chrome.storage.sync.get(null, function (result) {
         .o387gat7{
             flex-basis: 250px !important;
         }
+        /*      2 side bar      */
         .rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.qowsmv63.dp1hu0rb{
             -webkit-animation-name: fadeOut;
-            -webkit-animation-duration: 0.25s;
+            -webkit-animation-duration: 0.2s;
             opacity:0;
         }
         .rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.qowsmv63.dp1hu0rb:hover{
             -webkit-animation-name: fadeIn;
-            -webkit-animation-duration: 0.25s;
+            -webkit-animation-duration: 0.2s;
             opacity:1;
         }
         .rq0escxv.l9j0dhe7.tkr6xdv7.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.hpfvmrgz.dp1hu0rb.rek2kq2y.o36gj0jk.ahb00how{
             width :100px !important;
             -webkit-animation-name: fadeOut;
-            -webkit-animation-duration: 0.25s;
+            -webkit-animation-duration: 0.2s;
             opacity:0;
         }
         .rq0escxv.l9j0dhe7.tkr6xdv7.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.hpfvmrgz.dp1hu0rb.rek2kq2y.o36gj0jk.ahb00how:hover{
             width:300px !important;
             -webkit-animation-name: fadeIn;
-            -webkit-animation-duration: 0.25s;
+            -webkit-animation-duration: 0.2s;
             opacity:1;
+        }
+
+        /*      top bar     */
+        .kr520xx4.j9ispegn.poy2od1o.n7fi1qx3.tkr6xdv7{
+            -webkit-animation-name: fadeOut;
+            -webkit-animation-duration: 0.2s;
+            opacity:0;
+        }
+        .kr520xx4.j9ispegn.poy2od1o.n7fi1qx3.tkr6xdv7:hover{
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 0.1s;
+            opacity:1;
+        }
+
+        /*      name        */
+        .bp9cbjyn.j83agx80.datstx6m.taijpn5t.oi9244e8.d74ut37n{
+            -webkit-animation-name: fadeOut;
+            -webkit-animation-duration: 0.2s;
+            opacity:0;
+        }
+        .bp9cbjyn.j83agx80.datstx6m.taijpn5t.oi9244e8.d74ut37n:hover{
+            -webkit-animation-name: fadeIn;
+            -webkit-animation-duration: 0.1s;
+            opacity:1;
+        }
+
+        /*      search bar      */
+        label.rq0escxv.a8c37x1j.a5nuqjux.l9j0dhe7.k4urcfbm{
+            width:200px;
         }
         @-webkit-keyframes fadeIn { 
             0% { opacity: 0; }
+            10% { opacity: 0.1; }
             20% { opacity: 0.2; }
+            30% { opacity: 0.3; }
             40% { opacity: 0.4; }
+            50% { opacity: 0.5; }
             60% { opacity: 0.6; }
+            70% { opacity: 0.7; }
             80% { opacity: 0.8; }
+            90% { opacity: 0.9; }
             100% { opacity: 1; }
         }
         @-webkit-keyframes fadeOut { 
             0% { opacity: 1; }
+            10% { opacity: 0.9; }
             20% { opacity: 0.8; }
+            30% { opacity: 0.7; }
             40% { opacity: 0.6; }
+            50% { opacity: 0.5; }
             60% { opacity: 0.4; }
+            70% { opacity: 0.3; }
             80% { opacity: 0.2; }
+            90% { opacity: 0.1; }
             100% { opacity: 0; }
         }
         `
@@ -205,7 +245,4 @@ chrome.storage.sync.get(null, function (result) {
     /*remove ad*/
     document.getElementsByClassName("sponsored_ad")[0].remove();
     document.getElementsByClassName("ue3kfks5")[1].remove();
-    document.getElementById("rightCol").remove();
-    console.log("done");
-    console.log(document.getElementById("jsc_c_" + "$'").click())
 });
